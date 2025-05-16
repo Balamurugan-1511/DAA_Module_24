@@ -26,7 +26,7 @@ Developed by: Bala murugan
 Register Number:  212222230017
 */
 ```
-```c
+```python
 def knapSack(W, wt, val, n):
     K = [[0 for x in range(W + 1)] for x in range(n + 1)]
     for i in range(n + 1):
